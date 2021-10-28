@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="sign_up.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Hello and Welcome!</h1>
+        <p>This is a mini-site created to have fun and talk briefly about the
+        most popular sport in the world: Football</p>
+        <p>I am no football expert, but I believe you do not have to be one to appreciate the game.
+        To appreciate the maestros such as the Iniesta's, or the wrecking balls such as the Drogba's.</p>
+        <p>As mentioned I am no expert, but if you would like to embark on a short walk appreciating the beautiful
+        game please sign up below!</p>
+      </div>
+
+      <form action="thank_you.html" method="get">
+        <div class="form-group">
+          <div class="form-group">
+            <label for="first_name">First Name</label>
+            <input type="text" class="form-control" id="first_name" placeholder="Rio">
+          </div>
+          <div class="form-group">
+            <label for="last_name">Last Name</label>
+            <input type="text" class="form-control" id="last_name" placeholder="Ferdinand">
+          </div>
+          <label for="input_email">Email address</label>
+          <input type="email" class="form-control" id="input_email" aria-describedby="emailHelp" placeholder="Rio.Ferdinand@united.co.uk" required>
+          <small id="emailHelp" class="form-text text-muted">This information is confidential and will not be shared with a third party</small>
+        </div>
+        <div class="form-group">
+          <label for="input_password">Password</label>
+          <input type="password" class="form-control" id="input_password" placeholder="Enter password" required>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="check1">
+          <label class="form-check-label" for="check1">Ready to begin</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+
+
+
+
+    </div>
+
+  </body>
+</html>
